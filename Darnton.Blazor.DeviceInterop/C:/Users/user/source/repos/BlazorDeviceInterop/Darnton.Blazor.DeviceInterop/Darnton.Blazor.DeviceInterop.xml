@@ -148,7 +148,7 @@
             <summary>
             Constructs a <see cref="T:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationService"/> object.
             </summary>
-            <param name="JSRuntime"></param>
+            <param name="jsRuntime"></param>
         </member>
         <member name="M:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationService.GetCurrentPosition(Darnton.Blazor.DeviceInterop.Geolocation.PositionOptions)">
             <inheritdoc/>

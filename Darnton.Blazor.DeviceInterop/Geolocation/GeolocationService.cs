@@ -18,10 +18,10 @@ namespace Darnton.Blazor.DeviceInterop.Geolocation
         /// <summary>
         /// Constructs a <see cref="GeolocationService"/> object.
         /// </summary>
-        /// <param name="JSRuntime"></param>
-        public GeolocationService(IJSRuntime JSRuntime)
+        /// <param name="jsRuntime"></param>
+        public GeolocationService(IJSRuntime jsRuntime)
         {
-            _jsBinder = new JSBinder(JSRuntime, "./_content/Darnton.Blazor.DeviceInterop/js/Geolocation.js");
+            _jsBinder = new JSBinder(jsRuntime, "./_content/Darnton.Blazor.DeviceInterop/js/Geolocation.js");
         }
 
         /// <inheritdoc/>
