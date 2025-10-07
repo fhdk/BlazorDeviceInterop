@@ -8,7 +8,7 @@
     <FileVersion>0.0.1.3</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <ImplicitUsings>enable</ImplicitUsings>
-    <LangVersion>13.0</LangVersion>
+    <LangVersion>12.0</LangVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Product>Blazor device interop library</Product>
     <RepositoryUrl>https://github.com/darnton/BlazorDeviceInterop</RepositoryUrl>
