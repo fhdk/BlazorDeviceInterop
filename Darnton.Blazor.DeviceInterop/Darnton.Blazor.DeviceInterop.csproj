@@ -1,19 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Darnton.Blazor.DeviceInterop</RootNamespace>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.3</Version>
-    <Authors>Bernard Darnton</Authors>
-    <Product>Blazor device interop library</Product>
-    <Description>Blazor device interop library including wrappers for Geolocation API.</Description>
-    <Copyright>2020 Bernard Darnton</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/darnton/BlazorDeviceInterop</RepositoryUrl>
     <AssemblyVersion>0.0.1.3</AssemblyVersion>
+    <Authors>Bernard Darnton</Authors>
+    <Copyright>2020 Bernard Darnton</Copyright>
+    <Description>Blazor device interop library including wrappers for Geolocation API.</Description>
     <FileVersion>0.0.1.3</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>13.0</LangVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Product>Blazor device interop library</Product>
+    <RepositoryUrl>https://github.com/darnton/BlazorDeviceInterop</RepositoryUrl>
+    <RootNamespace>Darnton.Blazor.DeviceInterop</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>0.1.3</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
