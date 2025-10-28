@@ -20,7 +20,6 @@ namespace Darnton.Blazor.DeviceInterop
             return await (_module ??= JSRuntime.InvokeAsync<IJSObjectReference>("import", _importPath).AsTask());
         }
 
-        /// <inheritdoc/>
         public async ValueTask DisposeAsync()
         {
             if (_module != null)
