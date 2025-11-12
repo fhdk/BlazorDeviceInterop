@@ -3,21 +3,21 @@ using System.Threading.Tasks;
 
 namespace Darnton.Blazor.DeviceInterop
 {
-    internal class JSBinder
+    internal class JsBinder
     {
-        internal IJSRuntime JSRuntime;
-        private string _importPath;
+        internal readonly IJSRuntime JsRuntime;
+        private readonly string _importPath;
         private Task<IJSObjectReference> _module;
 
-        public JSBinder(IJSRuntime jsRuntime, string importPath)
+        public JsBinder(IJSRuntime jsRuntime, string importPath)
         {
-            JSRuntime = jsRuntime;
+            JsRuntime = jsRuntime;
             _importPath = importPath;
         }
 
         internal async Task<IJSObjectReference> GetModule()
         {
-            return await (_module ??= JSRuntime.InvokeAsync<IJSObjectReference>("import", _importPath).AsTask());
+            return await (_module ??= JsRuntime.InvokeAsync<IJSObjectReference>("import", _importPath).AsTask());
         }
 
         public async ValueTask DisposeAsync()

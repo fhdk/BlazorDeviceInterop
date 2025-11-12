@@ -10,7 +10,7 @@ namespace Darnton.Blazor.DeviceInterop.Geolocation
     /// </summary>
     public class GeolocationService : IGeolocationService
     {
-        private readonly JSBinder _jsBinder;
+        private readonly JsBinder _jsBinder;
 
         /// <inheritdoc/>
         public event EventHandler<GeolocationEventArgs> WatchPositionReceived;
@@ -21,7 +21,7 @@ namespace Darnton.Blazor.DeviceInterop.Geolocation
         /// <param name="jsRuntime"></param>
         public GeolocationService(IJSRuntime jsRuntime)
         {
-            _jsBinder = new JSBinder(jsRuntime, "./_content/Darnton.Blazor.DeviceInterop/js/Geolocation.js");
+            _jsBinder = new JsBinder(jsRuntime, "./_content/Darnton.Blazor.DeviceInterop/js/Geolocation.js");
         }
 
         /// <inheritdoc/>

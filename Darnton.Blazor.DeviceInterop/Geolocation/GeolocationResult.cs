@@ -12,6 +12,7 @@ namespace Darnton.Blazor.DeviceInterop.Geolocation
         /// The <see cref="GeolocationPosition"/> returned on successful geolocation.
         /// </summary>
         public GeolocationPosition Position { get; set; }
+
         /// <summary>
         /// The <see cref="GeolocationPositionError"/> returned by a failed geolocation attempt.
         /// </summary>
