@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace Darnton.Blazor.DeviceInterop.Geolocation
+﻿namespace Darnton.Blazor.DeviceInterop.Geolocation
 {
     /// <summary>
     /// A wrapper around the device's Geolocation API services.

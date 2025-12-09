@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Darnton.Blazor.DeviceInterop.Geolocation
+﻿namespace Darnton.Blazor.DeviceInterop.Geolocation
 {
     /// <summary>
     /// The reason for a Geolocation error, based on <see href="https://developer.mozilla.org/en-US/docs/Web/API/GeolocationPositionError"/>.

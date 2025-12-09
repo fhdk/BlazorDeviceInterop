@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Darnton.Blazor.DeviceInterop.Geolocation
+﻿namespace Darnton.Blazor.DeviceInterop.Geolocation
 {
     /// <summary>
     /// Geolocation event data. Provides the <see cref="GeolocationResult"/> with the position or error associated with the event.
