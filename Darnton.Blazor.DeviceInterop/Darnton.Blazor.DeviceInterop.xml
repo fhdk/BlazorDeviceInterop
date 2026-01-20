@@ -71,7 +71,7 @@
         </member>
         <member name="P:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationPosition.DateTimeOffset">
             <summary>
-            The <see cref="P:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationPosition.DateTimeOffset"/> derived from the Timestamp, in UTC.
+            The <see cref="P:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationPosition.DateTimeOffset"/> derived from the <see cref="P:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationPosition.Timestamp"/>, in UTC.
             </summary>
         </member>
         <member name="T:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationPositionError">
@@ -148,7 +148,7 @@
             <summary>
             Constructs a <see cref="T:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationService"/> object.
             </summary>
-            <param name="JsRuntime"/>
+            <param name="jsRuntime"></param>
         </member>
         <member name="M:Darnton.Blazor.DeviceInterop.Geolocation.GeolocationService.GetCurrentPosition(Darnton.Blazor.DeviceInterop.Geolocation.PositionOptions)">
             <inheritdoc/>
@@ -226,9 +226,6 @@
             Set to null to disregard the age of cached results.
             Set to 0 to skip the cache and attempt a fresh result every time. Defaults to 0.
             </summary>
-        </member>
-        <member name="M:Darnton.Blazor.DeviceInterop.JSBinder.DisposeAsync">
-            <inheritdoc/>
         </member>
     </members>
 </doc>
